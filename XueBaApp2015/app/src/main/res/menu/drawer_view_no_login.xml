@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_no_login"
+            android:icon="@drawable/ic_home"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_login_no_login"
+            android:icon="@drawable/ic_login"
+            android:title="登录/注册" />
+        <item
+            android:id="@+id/nav_updownload_no_login"
+            android:icon="@drawable/ic_doc"
+            android:title="文件传输" />
+        <item
+            android:id="@+id/nav_search_no_login"
+            android:icon="@drawable/ic_search"
+            android:title="搜索" />
+    </group>
+
+    <item android:title="辅助功能">
+        <menu>
+            <item
+                android:icon="@drawable/ic_cog"
+                android:id="@+id/nav_setting_no_login"
+                android:title="设置" />
+            <item
+                android:icon="@drawable/ic_info"
+                android:id="@+id/nav_about_no_login"
+                android:title="关于" />
+        </menu>
+    </item>
+</menu>

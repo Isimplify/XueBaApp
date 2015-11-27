@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways|snap" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="详细内容（不能为空）"
+        android:gravity="top"
+        android:layout_margin="6dp"
+        android:padding="5dp"
+        android:background="@drawable/edittext_sharp"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:maxLines="8"
+        android:enabled="true"
+        android:id="@+id/activity_modify_content_detail"/>
+
+</LinearLayout>
